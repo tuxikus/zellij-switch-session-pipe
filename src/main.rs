@@ -18,6 +18,7 @@ impl ZellijPlugin for State {
             eprintln!("no payload");
         }
 
+        close_self();
         false
     }
 
